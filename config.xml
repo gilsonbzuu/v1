@@ -13,8 +13,12 @@
 
 	<feature name="http://api.phonegap.com/1.0/network"/>
 
-	<preference name="orientation" value="default" />
-	<preference name="fullscreen" value="false" />
+
+<preference name="DisallowOverscroll" value="true"/>
+<preference name="Fullscreen" value="true" />
+<preference name="BackgroundColor" value="0xff0000ff"/>
+<preference name="HideKeyboardFormAccessoryBar" value="true"/>
+<preference name="Orientation" value="landscape" />
 
 
 	<preference name="deployment-target" value="8.0" />
