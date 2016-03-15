@@ -26,13 +26,11 @@
 	</feature>
 
 	<preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+
         <dependency id="cordova-plugin-googleplayservices"/>
         <preference name="android-build-tool" value="gradle" />
 
         <plugin name="cordova-plugin-admobpro" spec="2.12.3" />
-
-	<gap:plugin name="org.crosswalk.engine" source="pgb" />
-	<access origin="*" />
 
 	<gap:plugin name="org.apache.cordova.inappbrowser" source="npm" />
 
