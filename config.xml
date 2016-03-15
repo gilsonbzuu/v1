@@ -6,7 +6,7 @@
 	<author href="http://www.bzuu.com.br" email="maisemcontabrasil@gmail.com">gilson</author>
 
 	<icon src="icon-128.png" width="128" height="128" />
-	<icon src="icon-256.png" width="256" height="256" gap:role="default" />
+	<icon src="icon-256.png" width="256" height="255" gap:role="default" />
 
 	<preference name="permissions" value="none"/>
 	<preference name="android-targetSdkVersion" value="21" />
