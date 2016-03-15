@@ -35,6 +35,9 @@
 	<gap:plugin name="org.apache.cordova.inappbrowser" source="npm" />
 
 	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
+
+        <gap:plugin name="cordova-plugin-crosswalk-webview-pgb-adapt" source="npm" version="1.4.0-dev-5"/>
+
         <gap:splash src="splash.png" width="1024" height="768" />
 
  
