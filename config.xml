@@ -13,9 +13,8 @@
 
 	<feature name="http://api.phonegap.com/1.0/network"/>
 
-        <preference name="Orientation" value="landscape"/>
-    
-        <preference name="Fullscreen" value="true"/>
+        <preference name="Fullscreen" value="true" />
+        <preference name="Orientation" value="landscape" />
 
 	<preference name="deployment-target" value="8.0" />
 	<preference name="android-minSdkVersion" value="16" />
