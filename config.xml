@@ -32,13 +32,15 @@
 
         <plugin name="cordova-plugin-admobpro" spec="2.12.3" />
 
-	<gap:plugin name="org.apache.cordova.inappbrowser" source="npm" />
+	<gap:plugin name="org.crosswalk.engine" source="pgb" />
 
 	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
+	<access origin="*" />
 
-        <gap:plugin name="org.crosswalk.engine" source="pgb" />
+	<gap:plugin name="org.apache.cordova.inappbrowser" source="npm" />
 
-        <gap:splash src="splash.png" width="1024" height="768" />
+	<!-- Optional splash screen image, e.g.: -->
+	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
 
  
 
