@@ -13,12 +13,8 @@
 
 	<feature name="http://api.phonegap.com/1.0/network"/>
 
-
-<preference name="DisallowOverscroll" value="true"/>
-<preference name="Fullscreen" value="true" />
-<preference name="BackgroundColor" value="0xff0000ff"/>
-<preference name="HideKeyboardFormAccessoryBar" value="true"/>
-<preference name="Orientation" value="landscape" />
+        <preference name="Fullscreen" value="true" />
+        <preference name="Orientation" value="landscape" />
 
 
 	<preference name="deployment-target" value="8.0" />
@@ -43,8 +39,8 @@
 
 	<gap:plugin name="org.apache.cordova.inappbrowser" source="npm" />
 
-	<!-- Optional splash screen image, e.g.: -->
-	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
+
+<gap:splash src="splash.png" width="1024" height="768" />
 
  
 
